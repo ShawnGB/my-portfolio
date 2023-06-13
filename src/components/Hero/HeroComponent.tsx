@@ -1,5 +1,5 @@
 import ContactComonent from '../Contact/ContactComonent';
-import Shawn from '/public/assets/images/IMG_5789.jpg';
+// import Shawn from '/public/assets/images/IMG_5789.jpg';
 
 export default function HeroComponent() {
   return (
