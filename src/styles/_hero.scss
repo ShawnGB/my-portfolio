@@ -1,4 +1,4 @@
-.hero_container {
+.hero-container {
     width: calc(100% - 8rem);
     position: absolute;
     top: 4rem;
@@ -6,6 +6,14 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    
+    &__details {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction:column;
+        align-content:space-between;
+    }
 
 
     h1 {
@@ -14,7 +22,6 @@
     h2 {
         font-size: 1rem;
     }
-
     img {
         max-width: 15%;
     }
