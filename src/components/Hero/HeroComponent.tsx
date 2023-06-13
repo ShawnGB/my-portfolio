@@ -1,3 +1,5 @@
+import Shawn from '/public/assets/images/IMG_5789.jpg';
+
 export default function HeroComponent() {
   return (
     <div className='hero_container'>
@@ -6,10 +8,7 @@ export default function HeroComponent() {
         <h2>Web & digital product development</h2>
       </div>
 
-      <img
-        src='/kunden/homepages/28/d965387313/htdocs/images/IMG_5789.jpg'
-        alt="it's me :)"
-      />
+      <img src={Shawn} alt="it's me :)" />
     </div>
   );
 }
