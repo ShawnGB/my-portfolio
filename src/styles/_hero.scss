@@ -1,0 +1,21 @@
+.hero_container {
+    width: calc(100% - 8rem);
+    position: absolute;
+    top: 4rem;
+    left: 4Rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+    h1 {
+        font-size: 4rem;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+
+    img {
+        max-width: 15%;
+    }
+}
