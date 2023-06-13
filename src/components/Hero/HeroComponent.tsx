@@ -6,7 +6,7 @@ export default function HeroComponent() {
         <h2>Web & digital product development</h2>
       </div>
 
-      <img src='/assets/images/IMG_5789.jpg' alt="it's me :)" />
+      <img src='/src/static assets/images/IMG_5789.jpg' alt="it's me :)" />
     </div>
   );
 }
