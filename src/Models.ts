@@ -3,4 +3,5 @@ export type WorkingExperience = {
   conmpany: string;
   position: string;
   description: string;
+  icon: string;
 };

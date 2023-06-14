@@ -4,54 +4,55 @@
       "span": "05/2021 - 11/2022",
       "conmpany": "freiheit.software GmbH & coKG",
       "position": "Fullstack Webdeveloper",
-      "description": "In this position, I worked on ReactJs and NodeJS-based applications. My responsibilities also included communicating with the customers, conceptualising the features, and developing the UX/ UI."
+      "description": "In this position, I worked on ReactJs and NodeJS-based applications. My responsibilities also included communicating with the customers, conceptualising the features, and developing the UX/ UI.",
+      "icon": "freihet-icon.png"
     },
     {
       "span": "02/2021 - 05/2021",
       "conmpany": "Data4Life",
       "position": "Technical Project Manager / Chief of Staff",
-      "description": "In this position, I operated on a vast spectrum of responsibilities. These include establishing and improving the company culture and communication between d4l and external stakeholders, facilitating retros, organising cross-functional teams, and planning and conceptualising new projects."
+      "description": "In this position, I operated on a vast spectrum of responsibilities. These include establishing and improving the company culture and communication between d4l and external stakeholders, facilitating retros, organising cross-functional teams, and planning and conceptualising new projects.",
+      "icon": "d4l-icon.png"
     },
     {
       "span": "10/2018-06/2020",
       "conmpany": "YPTOKEY",
       "position": "Junior Software Engineer & Product Owner YKaaS",
-      "description": "In my position in the software team, I was involved in developing various applications for web, desktop, and iOS, including responsibility for UX/UI designs. Furthermore, as the Product Owner of „YPTOKEY as a Service, “I shaped the blockchain core product into a more tangible application for potential customers. I worked closely with our CEO and CTO to design a sustainable and scalable business model and its associated applications."
-    },
-    {
-      "span": "Since 04/2016",
-      "conmpany": "u/skillity",
-      "position": "Co-founder & Frontend Developer",
-      "description": "As co-founder, my primary responsibility is converting our vision, „...to make skills and knowledge more accessible...” into a sustainable product. My primary responsibilities were the planning and management of the technology and administrative process."
+      "description": "In my position in the software team, I was involved in developing various applications for web, desktop, and iOS, including responsibility for UX/UI designs. Furthermore, as the Product Owner of „YPTOKEY as a Service, “I shaped the blockchain core product into a more tangible application for potential customers. I worked closely with our CEO and CTO to design a sustainable and scalable business model and its associated applications.",
+      "icon": "yptokey-icon.png"
     },
     {
       "span": "09/2017 - 06/2018",
       "conmpany": "I-Connect Apple Premium Reseller ",
       "position": "Sales advisor",
-      "description": "As an apple trained retail expert, I helped customers to make the best product decisions and helped them with their questions and software issues."
+      "description": "As an apple trained retail expert, I helped customers to make the best product decisions and helped them with their questions and software issues.",
+      "icon": "iconnect-icon.png"
     },
     {
-      "span": "refund.me GmbH ",
-      "conmpany": "u/skillity",
+      "span": "01/2017 - 09/2017",
+      "conmpany": "refund.me GmbH",
       "position": "Online-marketing manager",
-      "description": "As co-founder, my primary responsibility is converting our vision, „...to make skills and knowledge more accessible...” into a sustainable product. My primary responsibilities were the planning and management of the technology and administrative process."
+      "description": "As co-founder, my primary responsibility is converting our vision, „...to make skills and knowledge more accessible...” into a sustainable product. My primary responsibilities were the planning and management of the technology and administrative process.",
+      "icon": "refundme-icon.png"
     },
     {
       "span": "Since 04/2016",
       "conmpany": "u/skillity",
       "position": "Co-founder & Frontend Developer",
-      "description": "In this position, I developed a social media strategy and improved the existing customer feedback channels."
+      "description": "In this position, I developed a social media strategy and improved the existing customer feedback channels.",
+      "icon": "uskillity-icon.png"
     },
     {
       "span": "2011 - 2016",
       "conmpany": "Kultstätte Keller",
       "position": "Co-founder",
-      "description": "This project intended to develop a place where friends could follow their artistic interests. It included a yoga studio, a recording studio, a workshop facility, and a nightclub. It proved itself a valid business model by hosting an average of 200 people six nights a week. My responsibilities lay with administrative functions and technological resources."
+      "description": "This project intended to develop a place where friends could follow their artistic interests. It included a yoga studio, a recording studio, a workshop facility, and a nightclub. It proved itself a valid business model by hosting an average of 200 people six nights a week. My responsibilities lay with administrative functions and technological resources.",
+      "icon": "keller-icon.png"
     },
     {
       "span": "2007 - 2010",
-      "conmpany": "Kultstätte Keller",
-      "position": "Co-founder",
+      "conmpany": "",
+      "position": "",
       "description": "Peppermint Park Studio Hannover - Studio assistant,Tinnitus in Tobago - Stadt unter Glas, LP - Engineer/ ProducerBar 25 - FacilityManagement ,Various Movie productions, in different positions within the camera department"
     }
   ]
