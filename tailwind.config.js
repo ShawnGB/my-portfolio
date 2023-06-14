@@ -13,7 +13,12 @@ export default {
       primary: 'blue',
       secondary: 'orange',
     },
-    extend: {},
+
+    extend: {
+      backgroundImage: {
+        hero: "url('../public/assets/images/background.png')",
+      },
+    },
   },
   plugins: [],
 };
