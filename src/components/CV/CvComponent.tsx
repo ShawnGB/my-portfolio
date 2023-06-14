@@ -13,7 +13,7 @@ export default function CvComponent() {
   }, []);
 
   return (
-    <div>
+    <div className='flex flex-row gap-4 overflow-x-scroll fixed top-2/4'>
       {experiences.map((experience: WorkingExperience) => (
         <CvCardComponent experience={experience} />
       ))}

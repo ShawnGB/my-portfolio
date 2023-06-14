@@ -5,14 +5,14 @@ export default {
     fontFamily: {
       sans: ['Raleway', 'Helvetica', 'sans'],
     },
-    colors: {
-      blue: '#0179B2ff',
-      violet: '#542644ff',
-      cyan: '#1BD7DFff',
-      orange: '#FE7D40ff',
-      primary: 'blue',
-      secondary: 'orange',
-    },
+    // colors: {
+    //   blue: '#0179B2ff',
+    //   violet: '#542644ff',
+    //   cyan: '#1BD7DFff',
+    //   orange: '#FE7D40ff',
+    //   primary: 'blue',
+    //   secondary: 'orange',
+    // },
 
     extend: {
       backgroundImage: {
