@@ -1,6 +1,6 @@
 export type WorkingExperience = {
   span: string;
-  company: string;
+  conmpany: string;
   position: string;
   description: string;
 };
