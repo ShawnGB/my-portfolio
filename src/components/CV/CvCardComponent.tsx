@@ -11,7 +11,7 @@ export default function CvCardComponent({ experience }: IProps) {
       <div className='w-full h-full flex text-gray-500'>
         <img
           className='m-auto'
-          src={`/assets/images/${experience.icon}`}
+          src={`assets/images/${experience.icon}`}
           alt=''
         />
       </div>
