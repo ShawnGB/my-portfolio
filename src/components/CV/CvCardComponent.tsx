@@ -7,7 +7,7 @@ type IProps = {
 
 export default function CvCardComponent({ experience }: IProps) {
   const imgURL = new URL(
-    `/public/assets/images/${experience.icon}`,
+    `/src/assets/images/${experience.icon}`,
     import.meta.url
   ).href;
 

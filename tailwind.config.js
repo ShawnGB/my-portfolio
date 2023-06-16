@@ -16,7 +16,7 @@ export default {
 
     extend: {
       backgroundImage: {
-        hero: "url('../public/assets/images/background.png')",
+        hero: "url('./src/assets/images/background.png')",
       },
     },
   },
