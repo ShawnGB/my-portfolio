@@ -6,14 +6,15 @@ type IProps = {
 };
 
 export default function CvCardComponent({ experience }: IProps) {
+  const imgURL = new URL(
+    `/public/assets/images/${experience.icon}`,
+    import.meta.url
+  ).href;
+
   return (
     <div className='bg-white w-1/3 mb-4 font-sans drop-shadow-md flex rounded-sm flex-shrink-0 '>
       <div className='w-full h-full flex text-gray-500'>
-        <img
-          className='m-auto'
-          src={`assets/images/${experience.icon}`}
-          alt=''
-        />
+        <img className='m-auto' src={imgURL} alt='' />
       </div>
 
       <div className='p-4 flex flex-col justify-between leading-normal'>
