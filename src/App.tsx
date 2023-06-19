@@ -3,7 +3,7 @@ import HeroComponent from './components/Hero/HeroComponent';
 
 function App() {
   return (
-    <div className='h-screen bg-hero bg-cover  bg-no-repeat bg-center bg-fixed '>
+    <div className='h-screen fixed bg-background'>
       <HeroComponent />
       <CvComponent />
     </div>
