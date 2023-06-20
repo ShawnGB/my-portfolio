@@ -13,6 +13,7 @@ export default {
     },
     colors: {
       background: '#eaeded',
+      white: '#ffffff',
       primary: {
         50: '#f2f3f4',
         100: '#e6e8ea',
