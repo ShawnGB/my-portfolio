@@ -2,16 +2,8 @@ import data from '../../assets/cvdata.json';
 
 export default function AboutMeComponent() {
   return (
-    <div className='text-lg leading-relaxed whitespace-pre max-w-lg overflow-scroll bg-primary-300 '>
-      {data.aboutMe &&
-        data.aboutMe.split('</br>').map((paragraph, index) => (
-          <p
-            key={index}
-            className='mb-4 max-w-full break-normal overflow-scroll'
-          >
-            {paragraph}
-          </p>
-        ))}
+    <div className='mt-8 text-xl text-primary-700 whitespace-pre w-2/3 m-auto whitespace-pre-line text-justify '>
+      {data.aboutMe && data.aboutMe}
     </div>
   );
 }

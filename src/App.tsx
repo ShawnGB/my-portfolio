@@ -1,12 +1,18 @@
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import CvComponent from './components/CV/CvComponent';
-import HeroComponent from './components/Hero/HeroComponent';
+import Navbar from './components/Navigation/Navbar';
+import AboutMeComponent from './components/About/AboutMeComponent';
 
 function App() {
   return (
-    <div className='h-screen fixed bg-background'>
-      <HeroComponent />
-      <CvComponent />
-    </div>
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route path='/' />
+        <Route path='/cv' element={<CvComponent />} />
+        <Route path='/about' element={<AboutMeComponent />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

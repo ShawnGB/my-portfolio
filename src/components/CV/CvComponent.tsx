@@ -4,7 +4,7 @@ import CvCardComponent from './CvCardComponent';
 
 export default function CvComponent() {
   return (
-    <div className='fixed top-2/4 h-2/4'>
+    <div className='h-2/4'>
       <h2 className='my-4 mx-8 text-primary-500 font-regular text-xl'>
         Working expoerince &&
       </h2>
