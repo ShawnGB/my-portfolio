@@ -4,12 +4,14 @@ export default {
   theme: {
     fontFamily: {
       raleway: ['Raleway', 'sans-serif'],
+      serif: ['Lora', 'serif'],
     },
     fontWeight: {
-      light: 200,
+      light: 300,
+      normal: 400,
       medium: 500,
-      normal: 600, // or 'regular' if you prefer
-      semibold: 700,
+      semibold: 600,
+      bold: 700,
     },
     colors: {
       background: '#eaeded',
