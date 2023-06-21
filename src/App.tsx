@@ -1,5 +1,5 @@
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
-import CvComponent from './components/CV/CvComponent';
+import CvCardList from './components/CV/CvCardList';
 import Navbar from './components/Navigation/Navbar';
 import AboutMeComponent from './components/About/AboutMeComponent';
 import HomeComponent from './components/Home/HomeComponent';
@@ -10,7 +10,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path='/' element={<HomeComponent />} />
-        <Route path='/cv' element={<CvComponent />} />
+        <Route path='/cv' element={<CvCardList />} />
         <Route path='/about' element={<AboutMeComponent />} />
       </Routes>
     </BrowserRouter>

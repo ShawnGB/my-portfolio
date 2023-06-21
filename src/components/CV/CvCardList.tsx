@@ -4,7 +4,7 @@ import { WorkingExperience } from '../../Models';
 import CvCardComponent from './CvCardComponent';
 import { useEffect, useState } from 'react';
 
-export default function CvComponent() {
+export default function CvCardList() {
   const { i18n } = useTranslation();
 
   const [data, setData] = useState<any>();
@@ -27,13 +27,11 @@ export default function CvComponent() {
   }
 
   return (
-    <div className='h-2/4'>
-      <div className='flex flex-row gap-20 align-middle h-5/6 overflow-x-scroll '>
-        {data &&
-          data.about.cv.map((experience: WorkingExperience, index: number) => (
-            <CvCardComponent experience={experience} key={index} />
-          ))}
-      </div>
+    <div className='grid gap-4 w-11/12 m-auto'>
+      {data &&
+        data.about.cv.map((experience: WorkingExperience, index: number) => (
+          <CvCardComponent experience={experience} key={index} index={index} />
+        ))}
     </div>
   );
 }
