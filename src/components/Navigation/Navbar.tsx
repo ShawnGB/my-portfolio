@@ -26,7 +26,7 @@ export default function Navbar() {
       button: 'navigation.navLink.service',
     },
     {
-      to: '/services',
+      to: '/contact',
       button: 'navigation.navLink.contact',
     },
   ];
