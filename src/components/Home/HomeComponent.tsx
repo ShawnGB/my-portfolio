@@ -11,9 +11,7 @@ export default function HomeComponent() {
       </div>
       <div className='relative mx-auto max-w-2xl max-w-screen-sm'>
         <h1 className='text-primary-900 font-bold text-4xl sm:text-5xl md:text-6xl text-center text-right'>
-          Elevating <br /> Digital Experiences
-          <br />
-          with <br /> Sustainable Solutions
+          {t('home.hero')}
         </h1>
       </div>
     </div>
