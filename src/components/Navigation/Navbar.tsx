@@ -1,4 +1,4 @@
-import { NavLink, useNavigate } from 'react-router-dom';
+import { NavLink, useLocation, useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
 type navLink = {
@@ -9,6 +9,8 @@ type navLink = {
 export default function Navbar() {
   const { t, i18n } = useTranslation();
   const navigate = useNavigate();
+
+  const location = useLocation();
 
   const navLinks: navLink[] = [
     {
@@ -37,21 +39,24 @@ export default function Navbar() {
   return (
     <div className='sticky top-0 left-0 w-screen flex justify-between items-center z-50 backdrop-filter backdrop-blur-lg bg-opacity-75'>
       <div
-        className='cursor-pointer ml-8 my-4 flex items-center '
+        className='cursor-pointer ml-8 my-4 flex items-center'
         onClick={() => navigate('/')}
       >
-        <h1 className='text-6xl text-bold text-accent-500 opacity-50'>
-          {'</'}
-        </h1>
+        <p className='text-6xl text-bold text-accent-500 opacity-50 '>{'</'}</p>
         <div className='flex-column cursor-pointer ml-2'>
-          <h1 className='text-3xl  text-accent-500  font-regular'>
-            {'Shawn Gordon Becker'}
-          </h1>
-          <h2 className='text-l font-sans text-primary-900 font-medium'>
-            {'Web && digital product development'}
+          <p className='text-3xl  text-accent-500  font-regular'>
+            {location.pathname === '/' ? 'Shawn Gordon Becker' : 'SGB'}
+          </p>
+
+          <h2 className='text-l font-sans text-primary-900 font-medium '>
+            {location.pathname === '/'
+              ? 'Web && digital product development'
+              : location.pathname}
           </h2>
         </div>
-        <h1 className='text-6xl text-bold text-accent-500 opacity-50'>{'>'}</h1>
+        <p className='text-6xl text-bold text-accent-500 opacity-50 mx-4'>
+          {'>'}
+        </p>
       </div>
 
       {navLinks &&
