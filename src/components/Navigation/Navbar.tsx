@@ -19,6 +19,14 @@ export default function Navbar() {
       to: '/about',
       button: 'navigation.navLink.about',
     },
+    {
+      to: '/services',
+      button: 'navigation.navLink.service',
+    },
+    {
+      to: '/services',
+      button: 'navigation.navLink.contact',
+    },
   ];
 
   const changeLanguage = (event: React.ChangeEvent<HTMLSelectElement>) => {
@@ -51,7 +59,11 @@ export default function Navbar() {
           <NavLink
             to={link.to}
             key={index}
-            className='m-4 text-xl w-40 leading-8 text-center text-accent-500'
+            className={(navData) =>
+              navData.isActive
+                ? 'text-accent-900 m-4 text-xl w-40 leading-8 text-center'
+                : 'm-4 text-xl w-40 leading-8 text-center text-accent-500'
+            }
           >
             {t(link.button)}
           </NavLink>

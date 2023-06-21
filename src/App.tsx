@@ -3,6 +3,7 @@ import CvCardList from './components/CV/CvCardList';
 import Navbar from './components/Navigation/Navbar';
 import AboutMeComponent from './components/About/AboutMeComponent';
 import HomeComponent from './components/Home/HomeComponent';
+import ContactComonent from './components/Contact/ContactComonent';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route path='/' element={<HomeComponent />} />
         <Route path='/cv' element={<CvCardList />} />
         <Route path='/about' element={<AboutMeComponent />} />
+        <Route path='/contact' element={<ContactComonent />} />
       </Routes>
     </BrowserRouter>
   );

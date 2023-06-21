@@ -2,7 +2,9 @@
   "navigation": {
     "navLink": {
       "cv": "CV",
-      "about": "About"
+      "about": "About",
+      "service": "Services",
+      "contact": "Contact"
     }
   },
   "about": {
