@@ -13,11 +13,11 @@ export default function Navbar() {
   const navLinks: navLink[] = [
     {
       to: '/cv',
-      button: 'navLink.cv',
+      button: 'navigation.navLink.cv',
     },
     {
       to: '/about',
-      button: 'navLink.about',
+      button: 'navigation.navLink.about',
     },
   ];
 
@@ -27,7 +27,7 @@ export default function Navbar() {
   };
 
   return (
-    <div className='sticky top-0 left-0 w-screen flex justify-between items-center '>
+    <div className='sticky top-0 left-0 w-screen flex justify-between items-center z-50 backdrop-filter backdrop-blur-lg bg-opacity-75'>
       <div
         className='cursor-pointer ml-8 my-4 flex items-center '
         onClick={() => navigate('/')}
