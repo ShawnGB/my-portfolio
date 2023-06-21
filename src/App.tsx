@@ -4,6 +4,7 @@ import Navbar from './components/Navigation/Navbar';
 import AboutMeComponent from './components/About/AboutMeComponent';
 import HomeComponent from './components/Home/HomeComponent';
 import ContactComonent from './components/Contact/ContactComonent';
+import ServiceComponent from './components/Service/ServiceComponent';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path='/cv' element={<CvCardList />} />
         <Route path='/about' element={<AboutMeComponent />} />
         <Route path='/contact' element={<ContactComonent />} />
+        <Route path='/services' element={<ServiceComponent />} />
       </Routes>
     </BrowserRouter>
   );

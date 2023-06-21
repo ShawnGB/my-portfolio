@@ -1,64 +1,85 @@
 {
-  "welcome": "Willkommen",
-  "greeting": "Hallo, {{name}}!",
+  "navigation": {
+    "navLink": {
+      "cv": "Lebenslauf",
+      "about": "Über mich",
+      "service": "Dienstleistungen",
+      "contact": "Kontakt"
+    }
+  },
+  "home": {
+    "hero": "Verbessere\ndigitale Erlebnisse\nmit\nnachhaltigen Lösungen"
+  },
+  "service": [
+    {
+      "title": "Webentwicklung",
+      "description": "Tauchen Sie ein in eine nahtlose Online-Präsenz, die mit einem nachhaltigen Ansatz entwickelt wurde. Unsere Webentwicklungsdienste legen gleichermaßen Wert auf Funktionalität und Ästhetik und stellen sicher, dass Ihre Website sowohl hervorsticht als auch auf ethischen Praktiken aufbaut. Von responsivem Design bis hin zur optimierten Leistung schaffen wir digitale Erlebnisse, die Ihren Werten entsprechen und Ihre Zielgruppe ansprechen."
+    },
+    {
+      "title": "Produktentwicklung",
+      "description": "Maximieren Sie die Wirkung Ihrer digitalen Produkte durch unseren strategischen und zielgerichteten Ansatz. Unsere Expertise im Bereich des digitalen Produktmanagements ermöglicht es Ihnen, sinnvolle und innovative Lösungen zu schaffen, die mit Ihren ethischen Geschäftspraktiken übereinstimmen. Wir begleiten Sie durch den gesamten Produktlebenszyklus, von der Ideenfindung bis zur Umsetzung, und stellen sicher, dass Ihre Produkte nicht nur den Geschäftserfolg vorantreiben, sondern auch einen positiven Beitrag zur Welt leisten."
+    },
+    {
+      "title": "Beratung",
+      "description": "Arbeiten Sie mit uns zusammen, um die digitale Landschaft zu navigieren und Ihre ethische und nachhaltige Markenidentität zu formen. Unsere Beratungsdienste bieten maßgeschneiderte Unterstützung für Unternehmen, die sich dem positiven Wandel verpflichtet fühlen. Wir helfen Ihnen, ethische Aspekte in Ihre digitalen Strategien zu integrieren und bieten Einblicke und Lösungen, die mit Ihren Werten übereinstimmen. Gemeinsam können wir Ihre Mission verstärken, Wachstum vorantreiben und Veränderung in einer sich ständig weiterentwickelnden digitalen Welt inspirieren."
+    }
+  ],
   "about": {
-    "aboutMe": "Meine technische Reise begann mit der Gründung von 'uskillity', wo ich die Entwicklung eines Produkts mitgestaltet und verwaltet habe, das darauf abzielt, Fähigkeiten und Wissen zugänglicher zu machen. Diese frühe unternehmerische Erfahrung entfachte meine Leidenschaft für Web- und Produktentwicklung und trieb mich dazu an, meine Fähigkeiten und Kenntnisse weiter auszubauen.\n\nIch begann meinen Bildungsweg an der National University of Ireland Maynooth und absolvierte ein BA-Studium in Business Marketing und Informatik. Dieses umfassende Programm vermittelte mir ein solides Verständnis für die Schnittstelle zwischen Wirtschaft und Technologie und legte den Grundstein für meine zukünftigen Unternehmungen.\n\nSeitdem hat jede Erfahrung, die ich gesammelt habe, zu meinem Wachstum als freiberuflicher Web- und Produktentwickler beigetragen. Von meiner Arbeit als Fullstack Webentwickler bei freiheit.software GmbH & coKG, wo ich ReactJS- und NodeJS-basierte Anwendungen entwickelt und eng mit Kunden zusammengearbeitet habe, um Funktionen zu konzipieren und die UX/UI zu verbessern, bis hin zu meiner Rolle als technischer Projektmanager und Chief of Staff bei Data4Life, wo ich die Unternehmenskultur verbessert, Retrospektiven ermöglicht und interdisziplinäre Teams für neue Projekte organisiert habe.\n\nDavor hatte ich als Junior Software Engineer und Product Owner bei YPTOKEY die Möglichkeit, Web-, Desktop- und iOS-Anwendungen zu entwickeln. In dieser Rolle habe ich nicht nur meine technischen Fähigkeiten verfeinert, sondern auch dazu beigetragen, das Kernprodukt der Blockchain zu gestalten und an der Entwicklung eines nachhaltigen Geschäftsmodells mitgewirkt.\n\nIm Laufe meiner Reise habe ich umfangreiche Kenntnisse in einer Vielzahl von Technologien und Frameworks wie JavaScript, Java, Swift, Go, HTML, CSS, ReactJS, Electron, SwiftUI und Django erworben. Diese Fähigkeiten, kombiniert mit meiner Fähigkeit, Tools wie MS Office, InDesign, Photoshop, Sketch, Avid Pro Tools und Logic Pro X zu nutzen, ermöglichen es mir, hochwertige digitale Produkte zu liefern, die den einzigartigen Anforderungen der Kunden entsprechen.\n\nNeben meinen technischen Fähigkeiten verfolge ich einen ganzheitlichen Ansatz in der Entwicklung. Ich glaube an die Kraft der Zusammenarbeit, effektive Kommunikation und das Verständnis der Ziele der Kunden, um außergewöhnliche Ergebnisse zu liefern. Ich strebe kontinuierlich danach, mit den neuesten Branchentrends und Best Practices auf dem Laufenden zu bleiben und sicherzustellen, dass die von mir bereitgestellten Lösungen innovativ und zukunftssicher sind.\n\nWenn ich nicht in der Programmierung vertieft bin, finde Sie mich bei meinen Leidenschaften. Als Musikliebhaber, Hobbykoch, begeisterter Radfahrer und Naturliebhaber schöpfe ich Inspiration aus verschiedenen Aspekten des Lebens. Diese vielseitige Perspektive steigert meine Kreativität und beflügelt meinen Antrieb, wirkungsvolle digitale Produkte zu schaffen.\n\nIch freue mich darauf, neue Projekte und Zusammenarbeit zu starten und meine technische Expertise und kreativen Denkweise einzusetzen, um Ihre Ideen zum Leben zu erwecken. Lassen Sie uns in Verbindung treten und besprechen, wie wir gemeinsam bemerkenswerte Web- und Produkterlebnisse schaffen können, die einen bleibenden Eindruck hinterlassen.\n\nKontaktieren Sie mich noch heute, und lassen Sie uns gemeinsam die Zukunft durch Technologie gestalten.",
+    "aboutMe": "Meine technische Reise begann mit der Gründung von 'uskillity', wo ich die Entwicklung eines Produkts zur Demokratisierung von Fähigkeiten und Wissen mitbegründet und geleitet habe. Diese frühe unternehmerische Erfahrung entfachte meine Leidenschaft für Web- und Produktentwicklung und trieb mich dazu an, meine Fähigkeiten und Kenntnisse weiter auszubauen.\n\nIch begann meinen Bildungsweg an der National University of Ireland Maynooth und absolvierte einen BA in Business Marketing und Informatik. Dieses umfassende Programm vermittelte mir ein solides Verständnis für die Schnittstelle zwischen Geschäft und Technologie und legte den Grundstein für meine zukünftigen Vorhaben.\n\nSeitdem habe ich durch jede gewonnene Erfahrung mein Wachstum als freiberuflicher Web- und Produktentwickler vorangetrieben. Von meiner Arbeit als Full-Stack Webentwickler bei freiheit.software GmbH & coKG, wo ich ReactJS- und NodeJS-basierte Anwendungen entwickelt und mit Kunden zusammengearbeitet habe, um Funktionen zu konzipieren und die Benutzererfahrung zu verbessern, bis hin zu meiner Rolle als technischer Projektmanager und Chief of Staff bei Data4Life, wo ich die Unternehmenskultur verbessert, Retrospektiven moderiert und interdisziplinäre Teams für neue Projekte organisiert habe.\n\nDavor war ich als Junior Softwareingenieur und Product Owner bei YPTOKEY tätig und hatte die Möglichkeit, Web-, Desktop- und iOS-Anwendungen zu entwickeln. In dieser Rolle habe ich nicht nur meine technischen Fähigkeiten geschärft, sondern auch zur Gestaltung des Blockchain-Kernprodukts beigetragen und an der Entwicklung eines nachhaltigen Geschäftsmodells mitgewirkt.\n\nIm Laufe meiner Reise habe ich Expertise in einer Vielzahl von Technologien und Frameworks wie JavaScript, Java, Swift, Go, HTML, CSS, ReactJS, Electron, SwiftUI und Django erlangt. Diese Fähigkeiten, kombiniert mit meiner Fähigkeit, Tools wie MS Office, InDesign, Photoshop, Sketch, Avid Pro Tools und Logic Pro X zu nutzen, ermöglichen es mir, hochwertige digitale Produkte zu liefern, die den einzigartigen Anforderungen der Kunden gerecht werden.\n\nÜber meine technischen Fähigkeiten hinaus verfolge ich einen ganzheitlichen Ansatz bei der Entwicklung. Ich glaube an die Kraft der Zusammenarbeit, effektive Kommunikation und das Verständnis der Ziele der Kunden, um außergewöhnliche Ergebnisse zu liefern. Ich strebe kontinuierlich danach, mit den neuesten Branchentrends und Best Practices auf dem Laufenden zu bleiben, um sicherzustellen, dass die von mir bereitgestellten Lösungen innovativ und zukunftssicher sind.\n\nWenn ich nicht in die Welt des Codierens eintauche, widme ich mich meinen Leidenschaften. Als Musikenthusiast, Hobbykoch, begeisterter Radfahrer und Naturliebhaber schöpfe ich Inspiration aus verschiedenen Aspekten des Lebens. Diese vielseitige Perspektive steigert meine Kreativität und befeuert meinen Antrieb, wirkungsvolle digitale Produkte zu schaffen.\n\nIch freue mich darauf, neue Projekte und Zusammenarbeiten anzugehen und meine technische Expertise und kreative Denkweise einzusetzen, um Ihre Ideen zum Leben zu erwecken. Lassen Sie uns in Kontakt treten und besprechen, wie wir gemeinsam bemerkenswerte Web- und Produkt-Erlebnisse schaffen können, die einen bleibenden Eindruck hinterlassen.\n\nKontaktieren Sie mich noch heute, und gemeinsam gestalten wir die Zukunft durch Technologie.",
     "cv": [
       {
         "span": "05/2021 - 11/2022",
         "conmpany": "freiheit.software GmbH & coKG",
         "position": "Fullstack Webentwickler",
-        "description": "Als Fullstack Webentwickler tauchte ich in die Welt der ReactJS- und NodeJS-basierten Anwendungen ein. Ich habe nicht nur nahtlose digitale Erlebnisse geschaffen, sondern auch eng mit Kunden zusammengearbeitet und Funktionen konzipiert, die ihre Visionen zum Leben erwecken. Vom Brainstorming bis zur Entwicklung sorgte ich für die perfekte Kombination von UX/UI, was zu außergewöhnlichen Benutzererlebnissen führte.",
+        "description": "Als Fullstack Webentwickler tauchte ich in die Welt der ReactJS- und NodeJS-basierten Anwendungen ein. Ich habe nicht nur nahtlose digitale Erlebnisse geschaffen, sondern auch eng mit Kunden zusammengearbeitet, um Funktionen zu konzipieren, die ihre Visionen zum Leben erweckten. Vom Brainstorming bis zur Entwicklung habe ich die perfekte Mischung aus Benutzererfahrung und Benutzeroberfläche sichergestellt, was zu außergewöhnlichen Nutzererlebnissen führte.",
         "icon": "freihet-icon.png"
       },
       {
         "span": "02/2021 - 05/2021",
         "conmpany": "Data4Life",
         "position": "Technischer Projektmanager / Chief of Staff",
-        "description": "In meiner Rolle als Technischer Projektmanager und Chief of Staff habe ich die Möglichkeit ergriffen, die Unternehmenskultur und die Kommunikation zu verbessern. Durch die Durchführung von Retrospektiven und die Organisation interdisziplinärer Teams habe ich ein Umfeld geschaffen, das Kreativität und Innovation fördert. Gemeinsam haben wir aufregende Projekte gestartet und die Grenzen des Möglichen im Bereich Technologie ausgelotet.",
+        "description": "In meiner Rolle als Technischer Projektmanager und Chief of Staff habe ich die Gelegenheit ergriffen, die Unternehmenskultur und Kommunikation zu verbessern. Durch die Moderation von Retrospektiven und die Organisation interdisziplinärer Teams habe ich ein Umfeld gefördert, das Kreativität und Innovation fördert. Gemeinsam haben wir spannende Projekte gestartet und die Grenzen des Möglichen in der Technologiewelt ausgelotet.",
         "icon": "d4l-icon.png"
       },
       {
         "span": "10/2018-06/2020",
         "conmpany": "YPTOKEY",
-        "position": "Junior Software Engineer & Product Owner YKaaS",
-        "description": "Als Junior Software Engineer und Product Owner habe ich mich in die Welt von Web-, Desktop- und iOS-Anwendungen vertieft. Neben der Verbesserung meiner technischen Fähigkeiten habe ich dazu beigetragen, das Kernprodukt unserer Blockchain mitzugestalten. Durch die Zusammenarbeit bei der Gestaltung eines nachhaltigen Geschäftsmodells haben wir den Weg für ein nahtloses Benutzererlebnis geebnet und das ungenutzte Potenzial der Blockchain-Technologie erkundet.",
+        "position": "Junior Softwareingenieur & Product Owner YKaaS",
+        "description": "Als Junior Softwareingenieur und Product Owner habe ich mich in die Welt von Web-, Desktop- und iOS-Anwendungen eingearbeitet. Neben der Verfeinerung meiner technischen Fähigkeiten habe ich dazu beigetragen, den Kern unseres Blockchain-Produkts zu gestalten. Durch die Zusammenarbeit bei der Gestaltung eines nachhaltigen Geschäftsmodells haben wir den Weg für ein nahtloses Benutzererlebnis geebnet und das ungenutzte Potenzial der Blockchain-Technologie erkundet.",
         "icon": "yptokey-icon.png"
       },
       {
         "span": "09/2017 - 06/2018",
-        "conmpany": "I-Connect Apple Premium Reseller",
+        "conmpany": "I-Connect Apple Premium Reseller ",
         "position": "Verkaufsberater",
-        "description": "Als Verkaufsberater bei I-Connect hatte ich das Privileg, mein Fachwissen über Apple-Produkte weiterzugeben und Kunden bei ihren Anfragen und Softwareproblemen zu unterstützen. Durch persönliche Anleitung habe ich Einzelpersonen dabei geholfen, das volle Potenzial ihrer Apple-Geräte auszuschöpfen und ein bestmögliches Benutzererlebnis zu erhalten.",
+        "description": "Als Verkaufsberater bei I-Connect hatte ich das Privileg, mein Fachwissen über Apple-Produkte weiterzugeben und Kunden bei ihren Fragen und Softwareproblemen zu unterstützen. Durch individuelle Beratung habe ich den vollen Nutzen ihrer Apple-Geräte erschlossen und dafür gesorgt, dass sie das bestmögliche Benutzererlebnis erhalten.",
         "icon": "iconnect-icon.png"
       },
       {
         "span": "01/2017 - 09/2017",
         "conmpany": "refund.me GmbH",
         "position": "Online-Marketing-Manager",
-        "description": "In meiner Rolle als Online-Marketing-Manager habe ich effektive Social-Media-Strategien entwickelt und umgesetzt, um die Präsenz der Marke zu verstärken und die Kundenfeedback-Kanäle zu verbessern. Durch die Nutzung datenbasierter Erkenntnisse habe ich Kampagnen optimiert, um ansprechende Inhalte zu liefern und eine bedeutungsvolle Verbindung zu unserem Publikum herzustellen.",
+        "description": "In meiner Rolle als Online-Marketing-Manager habe ich effektive Social-Media-Strategien entwickelt und umgesetzt, um die Präsenz der Marke zu stärken und die Kundenfeedback-Kanäle zu verbessern. Durch die Nutzung datengesteuerter Erkenntnisse habe ich Kampagnen optimiert, um ansprechende Inhalte bereitzustellen und bedeutungsvolle Verbindungen zu unserem Publikum aufzubauen.",
         "icon": "refundme-icon.png"
       },
       {
-        "span": "Seit 04/2016",
-        "conmpany": "u/skillity",
-        "position": "Mitbegründer & Frontend-Entwickler",
-        "description": "Die Reise von u/skillity markierte einen bedeutenden Meilenstein in meiner technischen Karriere. Als Mitbegründer und Frontend-Entwickler leitete ich die Entwicklung eines Produkts, das darauf abzielte, Bildung demokratisch zugänglich und ansprechend zu machen. Über unsere Plattform haben wir Einzelpersonen befähigt, indem wir Bildung zugänglich gemacht haben. Die Auswirkungen, die wir auf das Leben der Lernenden hatten, entfachten meine Leidenschaft für die Schaffung transformative digitaler Lösungen.",
-        "icon": "uskillity-icon.png"
-      },
-      {
-        "span": "2011 - 2016",
-        "conmpany": "Kultstätte Keller",
-        "position": "Mitbegründer",
-        "description": "Dieses Projekt hatte zum Ziel, einen Ort zu entwickeln, an dem Freunde ihren künstlerischen Interessen nachgehen konnten. Es umfasste ein Yogastudio, ein Aufnahmestudio, eine Werkstatt und einen Nachtclub. Es erwies sich als erfolgreiches Geschäftsmodell, indem es durchschnittlich sechs Nächte pro Woche im Durchschnitt 200 Personen beherbergte. Meine Verantwortlichkeiten lagen in administrativen Funktionen und technologischen Ressourcen.",
-        "icon": "keller-icon.png"
-      },
-      {
-        "span": "2007 - 2010",
-        "conmpany": "",
-        "position": "",
-        "description": "Peppermint Park Studio Hannover - Studio-Assistent\nTinnitus in Tobago - Stadt unter Glas, LP - Engineer/Producer\nBar 25 - FacilityManagement\nVerschiedene Filmproduktionen in unterschiedlichen Positionen innerhalb der Kameraabteilung"
+        "span": "Seit 2014",
+        "conmpany": "Freiberuflicher Web- und Produktentwickler",
+        "position": "Web- und Produktentwicklung",
+        "description": "Seit 2014 habe ich mein Wissen und meine Fähigkeiten als freiberuflicher Web- und Produktentwickler stetig erweitert. Ich habe an verschiedenen Projekten gearbeitet und eine breite Palette von Technologien und Frameworks wie JavaScript, Java, Swift, Go, HTML, CSS, ReactJS, Electron, SwiftUI und Django eingesetzt. Diese Erfahrungen haben mir geholfen, maßgeschneiderte Lösungen für meine Kunden zu entwickeln und ihre digitale Präsenz zu verbessern.",
+        "icon": "freelancer-icon.png"
       }
     ]
+  },
+  "contact": {
+    "email": "hello@example.com",
+    "phone": "+49 123 456 789",
+    "address": "Musterstraße 123, 12345 Musterstadt",
+    "formTitle": "Kontaktieren Sie mich",
+    "formName": "Name",
+    "formEmail": "E-Mail",
+    "formMessage": "Nachricht",
+    "formSubmit": "Absenden",
+    "formPrivacyNotice": "Ich stimme der Verarbeitung meiner personenbezogenen Daten gemäß der Datenschutzerklärung zu."
   }
 }
