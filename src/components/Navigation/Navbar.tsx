@@ -1,4 +1,5 @@
-import { NavLink } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 type navLink = {
   to: string;
@@ -6,28 +7,43 @@ type navLink = {
 };
 
 export default function Navbar() {
+  const { t, i18n } = useTranslation();
+  const navigate = useNavigate();
+
   const navLinks: navLink[] = [
     {
       to: '/cv',
-      button: 'CV',
+      button: 'navLink.cv',
     },
     {
       to: '/about',
-      button: 'About',
+      button: 'navLink.about',
     },
   ];
 
+  const changeLanguage = (event: React.ChangeEvent<HTMLSelectElement>) => {
+    const selectedLanguage = event.target.value;
+    i18n.changeLanguage(selectedLanguage);
+  };
+
   return (
-    <div className='sticky top-0 left-0 w-screen flex justify-start al'>
-      <div className='flex-column w-screen text-white'>
-        <div className='mx-8 my-4'>
-          <h1 className='text-4xl  text-accent-500  font-regular'>
+    <div className='sticky top-0 left-0 w-screen flex justify-between items-center '>
+      <div
+        className='cursor-pointer ml-8 my-4 flex items-center '
+        onClick={() => navigate('/')}
+      >
+        <h1 className='text-6xl text-bold text-accent-500 opacity-50'>
+          {'</'}
+        </h1>
+        <div className='flex-column cursor-pointer ml-2'>
+          <h1 className='text-3xl  text-accent-500  font-regular'>
             {'Shawn Gordon Becker'}
           </h1>
-          <h2 className='text-2xl font-sans text-primary-900 font-medium'>
-            {'//Web & digital product development'}
+          <h2 className='text-l font-sans text-primary-900 font-medium'>
+            {'Web && digital product development'}
           </h2>
         </div>
+        <h1 className='text-6xl text-bold text-accent-500 opacity-50'>{'>'}</h1>
       </div>
 
       {navLinks &&
@@ -35,11 +51,19 @@ export default function Navbar() {
           <NavLink
             to={link.to}
             key={index}
-            className='m-4 text-xl h-16 w-40 leading-8 text-center text-accent-500'
+            className='m-4 text-xl w-40 leading-8 text-center text-accent-500'
           >
-            {link.button}
+            {t(link.button)}
           </NavLink>
         ))}
+
+      <select
+        className='appearance-none px-8 py-2 border border-accent-500 bg-background text-accent-500 text-xl mr-8'
+        onChange={changeLanguage}
+      >
+        <option value='en'>EN</option>
+        <option value='de'>DE</option>
+      </select>
     </div>
   );
 }
