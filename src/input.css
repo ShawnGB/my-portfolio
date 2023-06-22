@@ -52,6 +52,7 @@ button {
 button:hover {
   background-color: #808990;
 }
+
 .text-fill {
   background-image: url('./assets/images/desptop.jpeg');
   -webkit-background-clip: text;
