@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { NavLink } from 'react-router-dom';
-import GlobeIcon from '../../../assets/svg/icons/GlobeIcon';
+//import GlobeIcon from '../../../assets/svg/icons/GlobeIcon';
 
 type NavLinkType = {
   to: string;
