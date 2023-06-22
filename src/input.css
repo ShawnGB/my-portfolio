@@ -16,6 +16,26 @@ h6 {
   font-family: 'Lora', serif;
 }
 
+.text-fill {
+  background-image: url('./assets/images/desptop.jpeg');
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-mask-image: -webkit-gradient(
+    linear,
+    left top,
+    right bottom,
+    from(rgba(244, 157, 143, 1)),
+    to(rgba(182, 51, 37, 1))
+  );
+  mask-image: linear-gradient(
+    to bottom right,
+    rgba(244, 157, 143, 1),
+    rgba(182, 51, 37, 1)
+  );
+}
+
 /* CSS */
 @media (min-width: 640px) {
   .mobile-menu {

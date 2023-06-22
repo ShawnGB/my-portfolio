@@ -7,6 +7,20 @@ export default function Navbar() {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
 
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 0);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   useEffect(() => {
     const handleResize = () => {
       setIsMobile(window.innerWidth <= 640);
@@ -21,7 +35,11 @@ export default function Navbar() {
   }, []);
 
   return (
-    <div className='sticky top-0 left-0 w-screen h-20 flex justify-around items-center z-50 backdrop-filter backdrop-blur-lg bg-opacity-75'>
+    <div
+      className={`sticky top-0 left-0 w-screen h-20 flex justify-around items-center z-50 backdrop-filter backdrop-blur-lg bg-opacity-75 ${
+        isScrolled ? 'shadow' : ''
+      }`}
+    >
       <LogoComponent isMobile={isMobile} />
       <NavItems isMobile={isMobile} isMobileMenuOpen={isMobileMenuOpen} />
       <BurgerMenu

@@ -1,6 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { NavLink } from 'react-router-dom';
+import GlobeIcon from '../../../assets/svg/icons/GlobeIcon';
 
 type NavLinkType = {
   to: string;
@@ -71,6 +72,7 @@ export default function NavItems({ isMobile, isMobileMenuOpen }: IProps) {
               </NavLink>
             ))}
           </div>
+
           <select
             className={Menustyles.select}
             onChange={changeLanguage}
