@@ -62,10 +62,10 @@ export default function NavItems({ isMobile, isMobileMenuOpen }: IProps) {
                 key={index}
                 className={(navData) =>
                   isMobile
-                    ? 'block px-4 py-2 text-xl text-center text-accent-500'
+                    ? 'block px-4 py-2 text-xl text-center text-primary-600'
                     : navData.isActive
-                    ? 'text-accent-900 m-4 text-xl w-40 leading-8 text-center'
-                    : 'm-4 text-xl w-40 leading-8 text-center text-accent-500'
+                    ? 'text-primary-900 m-4 text-xl w-40 leading-8 text-center'
+                    : 'm-4 text-xl w-40 leading-8 text-center text-primary-600'
                 }
               >
                 {t(link.button)}
