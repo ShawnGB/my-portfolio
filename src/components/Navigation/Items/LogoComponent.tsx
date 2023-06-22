@@ -11,10 +11,7 @@ export default function LogoComponent({ isMobile }: IProps) {
   const logoText =
     isHomePage && !isMobile ? '</Shawn Gordon Becker>' : '</SGB >';
 
-  const subText =
-    isHomePage && !isMobile
-      ? 'Web && digital product development'
-      : `/${location.pathname}`;
+  const subText = !isHomePage && isMobile && `/${location.pathname}`;
 
   return (
     <div
@@ -23,11 +20,7 @@ export default function LogoComponent({ isMobile }: IProps) {
     >
       <div className='flex-column cursor-pointer'>
         <p className='text-xl text-accent-500 font-regular'>{logoText}</p>
-        <p
-          className={`text-md font-sans text-primary-900 font-medium ${
-            isHomePage || isMobile ? 'capitalize' : ''
-          }`}
-        >
+        <p className='text-md font-sans text-primary-500 font-medium'>
           {subText}
         </p>
       </div>
