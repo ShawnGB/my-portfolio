@@ -3,7 +3,7 @@ export default {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     fontFamily: {
-      raleway: ['Raleway', 'sans-serif'],
+      sans: ['Raleway', 'sans-serif'],
       serif: ['Lora', 'serif'],
     },
     fontWeight: {
@@ -41,11 +41,7 @@ export default {
         900: '#700e13',
       },
     },
-    extend: {
-      // backgroundImage: {
-      //   hero: "url('./src/assets/images/background.png')",
-      // },
-    },
+    extend: {},
   },
   plugins: [],
 };

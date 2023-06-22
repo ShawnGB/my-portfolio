@@ -15,15 +15,15 @@ export default function ContactComponent() {
     <div>
       <form
         onSubmit={handleSubmit(onSubmit)}
-        className='p-8 m-auto w-11/12 md:w-1/2 bg-primary-100 rounded-lg shadow-lg flex flex-col items-center'
+        className='p-8 m-auto w-11/12 md:w-1/2 shadow-lg flex flex-col items-center'
         style={{ maxWidth: '500px' }}
       >
         <label htmlFor='firstName' className='text-lg text-primary-700 mb-2'>
-          First Name:
+          <p>First Name</p>
           <input
             type='text'
             {...register('firstName', { required: true })}
-            className='block w-full py-2 px-4 bg-primary-100 border border-accent-500 rounded-lg shadow-sm focus:outline-none focus:border-accent-700'
+            className='block w-full py-2 px-4 bg-background border border-accent-200 rounded-sm shadow-sm focus:outline-none focus:border-accent-700'
           />
         </label>
         {errors.firstName && (
@@ -31,11 +31,11 @@ export default function ContactComponent() {
         )}
 
         <label htmlFor='lastName' className='text-lg text-primary-700 mb-2'>
-          Last Name:
+          <p>Last Name</p>
           <input
             type='text'
             {...register('lastName', { required: true })}
-            className='block w-full py-2 px-4 bg-primary-100 border border-accent-500 rounded-lg shadow-sm focus:outline-none focus:border-accent-700'
+            className='block w-full py-2 px-4 bg-background border border-accent-200 rounded-sm shadow-sm focus:outline-none focus:border-accent-700'
           />
         </label>
         {errors.lastName && (
@@ -43,20 +43,20 @@ export default function ContactComponent() {
         )}
 
         <label htmlFor='company' className='text-lg text-primary-700 mb-2'>
-          Company:
+          <p>Company:</p>
           <input
             type='text'
             {...register('company')}
-            className='block w-full py-2 px-4 bg-primary-100 border border-accent-500 rounded-lg shadow-sm focus:outline-none focus:border-accent-700'
+            className='block w-full py-2 px-4 bg-background border border-accent-200 rounded-sm shadow-sm focus:outline-none focus:border-accent-700'
           />
         </label>
 
         <label htmlFor='email' className='text-lg text-primary-700 mb-2'>
-          Email:
+          <p>Email:</p>
           <input
             type='text'
             {...register('email', { required: true })}
-            className='block w-full py-2 px-4 bg-primary-100 border border-accent-500 rounded-lg shadow-sm focus:outline-none focus:border-accent-700'
+            className='block w-full py-2 px-4 bg-background border border-accent-200 rounded-sm shadow-sm focus:outline-none focus:border-accent-700'
           />
         </label>
         {errors.email && (
@@ -64,33 +64,17 @@ export default function ContactComponent() {
         )}
 
         <div className='text-lg text-primary-700 mb-2'>
-          Select Role:
-          <label className='block mt-2'>
-            <input
-              type='radio'
-              value='Webdevelopment'
+          <label htmlFor='role' className='block'>
+            <p>Select Role:</p>
+            <select
               {...register('role', { required: true })}
-              className='form-radio text-accent-500 mr-2'
-            />
-            Web Development
-          </label>
-          <label className='block mt-2'>
-            <input
-              type='radio'
-              value='Product Management'
-              {...register('role', { required: true })}
-              className='form-radio text-accent-500 mr-2'
-            />
-            Product Management
-          </label>
-          <label className='block mt-2'>
-            <input
-              type='radio'
-              value='Consulting'
-              {...register('role', { required: true })}
-              className='form-radio text-accent-500 mr-2'
-            />
-            Consulting
+              className='block w-full py-2 px-4 bg-background border border-accent-200 rounded-sm shadow-sm focus:outline-none focus:border-accent-700'
+              style={{ appearance: 'none' }}
+            >
+              <option value='Webdevelopment'>Web Development</option>
+              <option value='Product Management'>Product Management</option>
+              <option value='Consulting'>Consulting</option>
+            </select>
           </label>
         </div>
         {errors.role && (
@@ -101,7 +85,7 @@ export default function ContactComponent() {
           Message:
           <textarea
             {...register('message', { required: true })}
-            className='block w-full py-2 px-4 bg-primary-100 border border-accent-500 rounded-lg shadow-sm focus:outline-none focus:border-accent-700'
+            className='block w-full py-2 px-4 bg-background border border-accent-200 rounded-sm shadow-sm focus:outline-none focus:border-accent-700'
             rows={4}
           ></textarea>
         </label>
@@ -111,7 +95,7 @@ export default function ContactComponent() {
 
         <button
           type='submit'
-          className='bg-accent-500 text-white font-semibold py-2 px-4 mt-4 rounded-lg shadow-md hover:bg-accent-700 focus:outline-none focus:bg-accent-700'
+          className='bg-accent-500 text-white font-semibold py-2 px-4 mt-4 rounded-sm shadow-md hover:bg-accent-700 focus:outline-none focus:bg-accent-700'
         >
           Send Request
         </button>
