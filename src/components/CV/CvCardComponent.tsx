@@ -1,5 +1,4 @@
 import { WorkingExperience } from '../../Models';
-// import TimeSpanIcon from '../../assets/svg/icons/TimeSpanIcon';
 
 type IProps = {
   experience: WorkingExperience;
@@ -7,27 +6,20 @@ type IProps = {
 };
 
 export default function CvCardComponent({ experience, index }: IProps) {
-  // const imgURL = new URL(
-  //   `/src/assets/images/${experience.icon}`,
-  //   import.meta.url
-  // ).href;
-
   return (
     <div
-      className={`w-full sm:w-1/2 my-4 flex flex-col gap-y-4 ${
+      className={`w-full sm:w-1/2 md:w-1/3 my-4 flex flex-col gap-y-4 ${
         index % 2 === 0 ? 'sm:mr-auto' : 'sm:ml-auto'
-      }`}
+      } shadow-lg p-8`}
     >
-      {/* <div className='relative -top-8 -left-8 bg-white h-20 w-full flex align-middle'>
-        <img className='m-auto max-h-10 max-w-5/6' src={imgURL} alt='' />
-      </div> */}
-
-      <p className='font-light'>{experience.span}</p>
-      <h1 className='text-l font-semibold'>{experience.conmpany}</h1>
-      <h2 className='text-l font-regular'>{experience.position}</h2>
-      <p className='text-base text-justify font-light '>
-        {experience.description}
-      </p>
+      <p className='text-primary-500 font-medium'>{experience.span}</p>
+      <h3 className='text-primary-500 font-bold text-lg'>
+        {experience.conmpany}
+      </h3>
+      <h4 className='text-primary-500 font-normal text-base'>
+        {experience.position}
+      </h4>
+      <p className='text-primary-500'>{experience.description}</p>
     </div>
   );
 }
