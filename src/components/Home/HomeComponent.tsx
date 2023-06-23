@@ -1,5 +1,4 @@
 import { useTranslation } from 'react-i18next';
-import desktop from '../../assets/images/desptop.jpeg';
 
 export default function HomeComponent() {
   const { t } = useTranslation();
@@ -13,7 +12,7 @@ export default function HomeComponent() {
           </div>
         </h1>
 
-        <h2 className='mt-4 ml-8 text-accent-500 font-sans font-light text-3xl '>
+        <h2 className='mt-4 ml-8 text-accent-500 font-sans font-light text-2xl sm:text-4xl md:text-6xl'>
           web &amp; product development
         </h2>
       </div>
