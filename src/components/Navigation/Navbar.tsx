@@ -36,7 +36,7 @@ export default function Navbar() {
 
   return (
     <div
-      className={`sticky top-0 left-0 w-screen h-20 flex justify-around items-center z-50 backdrop-filter backdrop-blur-lg bg-opacity-75 ${
+      className={`sticky top-0 left-0 w-screen h-20 flex justify-around items-center z-50 backdrop-filter backdrop-blur-md bg-opacity-75 ${
         isScrolled ? 'shadow' : ''
       }`}
     >

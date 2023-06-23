@@ -19,7 +19,7 @@ export default function LogoComponent({ isMobile }: IProps) {
       onClick={() => navigate('/')}
     >
       <div className='flex-column cursor-pointer'>
-        <p className='text-xl text-accent-500 font-regular'>{logoText}</p>
+        <p className='text-2xl text-accent-500 font-light'>{logoText}</p>
         <p className='text-md font-sans text-primary-500 font-medium'>
           {subText}
         </p>

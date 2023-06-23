@@ -48,7 +48,7 @@ export default function NavItems({ isMobile, isMobileMenuOpen }: IProps) {
       : 'hidden',
 
     select:
-      'appearance-none px-3 border border-accent-500 bg-background text-accent-500 text-l',
+      'appearance-none p-2 border border-primary-700 bg-primary-700 hover:border-primary-400 hover:bg-primary-400 text-primary-50 text-l rounded-full',
   };
 
   return (
@@ -65,7 +65,7 @@ export default function NavItems({ isMobile, isMobileMenuOpen }: IProps) {
                     ? 'block px-4 py-2 text-xl text-center text-primary-600'
                     : navData.isActive
                     ? 'text-primary-900 m-4 text-xl w-40 leading-8 text-center'
-                    : 'm-4 text-xl w-40 leading-8 text-center text-primary-600 font-light'
+                    : 'm-4 text-xl w-40 leading-8 text-center text-primary-600'
                 }
               >
                 {t(link.button)}
