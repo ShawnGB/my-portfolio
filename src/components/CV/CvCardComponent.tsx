@@ -5,7 +5,7 @@ type IProps = {
   index: number;
 };
 
-export default function CvCardComponent({ experience, index }: IProps) {
+export default function CvCardComponent({ experience }: IProps) {
   return (
     <div className={`w-full sm:w-1/2 md:w-1/2 my-4 flex flex-col mt-8`}>
       <p className='text-xl  mb-3 ml-20 text-accent-500 font-light '>
