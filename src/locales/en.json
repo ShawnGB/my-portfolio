@@ -1,9 +1,9 @@
 {
   "navigation": {
     "navLink": {
+      "service": "Services",
       "cv": "CV",
       "about": "About",
-      "service": "Services",
       "contact": "Contact"
     }
   },
@@ -13,15 +13,18 @@
   "service": [
     {
       "title": "Web development",
-      "description": "Immerse yourself in a seamless online presence crafted with a sustainable approach. Our web development services prioritize both functionality and aesthetics, ensuring that your website stands out while being built with ethical practices. From responsive designs to optimized performance, we create digital experiences that align with your values and resonate with your target audience."
+      "description": "Immerse yourself in a seamless online presence crafted with a sustainable approach. My web development services prioritize both functionality and aesthetics, ensuring that your website stands out while being built with ethical practices. From responsive designs to optimized performance, we create digital experiences that align with your values and resonate with your target audience.",
+      "icon": "webdev-icon"
     },
     {
       "title": "Product Development",
-      "description": "Maximize the impact of your digital products through our strategic and purpose-driven approach. Our expertise in digital product management empowers you to create meaningful and innovative solutions that align with your ethical business practices. We guide you through the entire product lifecycle, from ideation to execution, ensuring that your products not only drive business success but also make a positive difference in the world."
+      "description": "Maximize the impact of your digital products through our strategic and purpose-driven approach. Our expertise in digital product management empowers you to create meaningful and innovative solutions that align with your ethical business practices. We guide you through the entire product lifecycle, from ideation to execution, ensuring that your products not only drive business success but also make a positive difference in the world.",
+      "icon": "product-icon"
     },
     {
       "title": "Consulting",
-      "description": "Partner with us to navigate the digital landscape and shape your ethical and sustainable brand identity. Our consulting services offer tailored guidance to businesses committed to making a positive impact. We help you integrate ethical considerations into your digital strategies, offering insights and solutions that align with your values. Together, we can amplify your mission, drive growth, and inspire change in an ever-evolving digital world."
+      "description": "Partner with us to navigate the digital landscape and shape your ethical and sustainable brand identity. Our consulting services offer tailored guidance to businesses committed to making a positive impact. We help you integrate ethical considerations into your digital strategies, offering insights and solutions that align with your values. Together, we can amplify your mission, drive growth, and inspire change in an ever-evolving digital world.",
+      "icon": "consult-icon"
     }
   ],
   "about": {
