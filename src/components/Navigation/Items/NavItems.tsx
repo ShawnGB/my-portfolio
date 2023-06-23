@@ -23,6 +23,10 @@ export default function NavItems({ isMobile, isMobileMenuOpen }: IProps) {
 
   const navLinks: NavLinkType[] = [
     {
+      to: '/services',
+      button: 'navigation.navLink.service',
+    },
+    {
       to: '/cv',
       button: 'navigation.navLink.cv',
     },
@@ -30,10 +34,7 @@ export default function NavItems({ isMobile, isMobileMenuOpen }: IProps) {
       to: '/about',
       button: 'navigation.navLink.about',
     },
-    {
-      to: '/services',
-      button: 'navigation.navLink.service',
-    },
+
     {
       to: '/contact',
       button: 'navigation.navLink.contact',

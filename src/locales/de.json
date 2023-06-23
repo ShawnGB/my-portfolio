@@ -1,9 +1,9 @@
 {
   "navigation": {
     "navLink": {
+      "service": "Dienstleistungen",
       "cv": "Lebenslauf",
       "about": "Über mich",
-      "service": "Dienstleistungen",
       "contact": "Kontakt"
     }
   },

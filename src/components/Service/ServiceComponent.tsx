@@ -24,14 +24,18 @@ export default function ServiceComponent() {
   }
 
   return (
-    <div className='grid gap-4 w-11/12 mx-auto'>
+    <div className='w-full flex flex-col align-middle justify-center items-center p-4'>
       {data.service.map(
-        (service: { title: string; description: string }, index: number) => (
+        (
+          service: { title: string; description: string; icon: string },
+          index: number
+        ) => (
           <ServiceCard
             title={service.title}
             description={service.description}
             key={index}
             index={index}
+            icon={service.icon}
           />
         )
       )}
