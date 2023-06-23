@@ -11,64 +11,60 @@ export default function ContactComponent() {
     console.log(data);
   };
 
+  const inputStyle =
+    'block w-full p-2 bg-background border-b-2 border-primary-200 focus:outline-none focus:border-accent-500';
   return (
-    <div>
+    <div className='w-full flex flex-col align-middle justify-center items-center p-4'>
       <form
         onSubmit={handleSubmit(onSubmit)}
-        className='p-8 m-auto w-11/12 md:w-1/2 shadow-lg flex flex-col items-center'
+        className='shadow-lg border border-primary-50 md:max-w-2/4 p-16 mx-auto flex flex-col gap-y-4'
         style={{ maxWidth: '500px' }}
       >
         <label htmlFor='firstName' className='text-lg text-primary-700 mb-2'>
-          <p>First Name</p>
           <input
+            className={inputStyle}
+            placeholder={
+              errors.firstName ? 'First Name is required.' : 'first Name'
+            }
             type='text'
             {...register('firstName', { required: true })}
-            className='block w-full py-2 px-4 bg-background border border-accent-200 rounded-sm shadow-sm focus:outline-none focus:border-accent-700'
           />
         </label>
-        {errors.firstName && (
-          <p className='text-red-500 text-sm mb-2'>First Name is required.</p>
-        )}
 
         <label htmlFor='lastName' className='text-lg text-primary-700 mb-2'>
-          <p>Last Name</p>
           <input
+            placeholder={
+              errors.lastName ? 'Last Name is required.' : 'last Name'
+            }
             type='text'
             {...register('lastName', { required: true })}
-            className='block w-full py-2 px-4 bg-background border border-accent-200 rounded-sm shadow-sm focus:outline-none focus:border-accent-700'
+            className={inputStyle}
           />
         </label>
-        {errors.lastName && (
-          <p className='text-red-500 text-sm mb-2'>Last Name is required.</p>
-        )}
 
         <label htmlFor='company' className='text-lg text-primary-700 mb-2'>
-          <p>Company:</p>
           <input
+            placeholder='compoany'
             type='text'
             {...register('company')}
-            className='block w-full py-2 px-4 bg-background border border-accent-200 rounded-sm shadow-sm focus:outline-none focus:border-accent-700'
+            className={inputStyle}
           />
         </label>
 
         <label htmlFor='email' className='text-lg text-primary-700 mb-2'>
-          <p>Email:</p>
           <input
+            placeholder={errors.email ? 'email is required.' : 'email'}
             type='text'
             {...register('email', { required: true })}
-            className='block w-full py-2 px-4 bg-background border border-accent-200 rounded-sm shadow-sm focus:outline-none focus:border-accent-700'
+            className={inputStyle}
           />
         </label>
-        {errors.email && (
-          <p className='text-red-500 text-sm mb-2'>Email is required.</p>
-        )}
 
         <div className='text-lg text-primary-700 mb-2'>
           <label htmlFor='role' className='block'>
-            <p>Select Role:</p>
             <select
               {...register('role', { required: true })}
-              className='block w-full py-2 px-4 bg-background border border-accent-200 rounded-sm shadow-sm focus:outline-none focus:border-accent-700'
+              className={inputStyle}
               style={{ appearance: 'none' }}
             >
               <option value='Webdevelopment'>Web Development</option>
@@ -82,20 +78,19 @@ export default function ContactComponent() {
         )}
 
         <label htmlFor='message' className='text-lg text-primary-700 mb-2'>
-          Message:
           <textarea
+            placeholder={
+              errors.message ? 'a message is requirred' : 'write a message'
+            }
             {...register('message', { required: true })}
-            className='block w-full py-2 px-4 bg-background border border-accent-200 rounded-sm shadow-sm focus:outline-none focus:border-accent-700'
+            className={inputStyle}
             rows={4}
           ></textarea>
         </label>
-        {errors.message && (
-          <p className='text-red-500 text-sm mb-2'>Message is required.</p>
-        )}
 
         <button
           type='submit'
-          className='bg-accent-500 text-white font-semibold py-2 px-4 mt-4 rounded-sm shadow-md hover:bg-accent-700 focus:outline-none focus:bg-accent-700'
+          className='block border border-primary-700 text-primary-700 hover:text-background hover:border-primary-500'
         >
           Send Request
         </button>
