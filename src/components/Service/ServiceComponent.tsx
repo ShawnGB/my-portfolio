@@ -34,7 +34,6 @@ export default function ServiceComponent() {
             title={service.title}
             description={service.description}
             key={index}
-            index={index}
             icon={service.icon}
           />
         )

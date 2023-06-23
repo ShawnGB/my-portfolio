@@ -1,16 +1,10 @@
 type IProps = {
   title: string;
   description: string;
-  index: number;
   icon: string;
 };
 
-export default function ServiceCard({
-  title,
-  description,
-  index,
-  icon,
-}: IProps) {
+export default function ServiceCard({ title, description, icon }: IProps) {
   const svgURL = new URL(
     `../../assets/svg/icons/${icon}.svg`,
 
