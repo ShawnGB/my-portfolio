@@ -49,7 +49,7 @@ export default function NavItems({ isMobile, isMobileMenuOpen }: IProps) {
       : 'hidden',
 
     select:
-      'appearance-none p-2 border border-primary-700 bg-primary-700 hover:border-primary-400 hover:bg-primary-400 text-primary-50 text-l rounded-full',
+      'appearance-none p-2 border border-primary-700 bg-background hover:bg-primary-700 hover:bg-primary-700 hover:border border-primary-700 text-primary-700 hover:text-background text-l rounded-full',
   };
 
   return (
