@@ -44,6 +44,7 @@ export default function Navbar() {
       <NavItems isMobile={isMobile} isMobileMenuOpen={isMobileMenuOpen} />
       <BurgerMenu
         setMobileMenuOpen={() => setMobileMenuOpen(!isMobileMenuOpen)}
+        isMobileMenuOpen={isMobileMenuOpen}
       />
     </div>
   );
