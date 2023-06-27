@@ -32,46 +32,58 @@
     "cv": [
       {
         "span": "05/2021 - 11/2022",
-        "conmpany": "freiheit.software GmbH & coKG",
+        "conmpany": "freiheit.software",
         "position": "Fullstack Webentwickler",
-        "description": "Als Fullstack Webentwickler habe ich mich in die Welt der ReactJS- und NodeJS-basierten Anwendungeneingearbeitet. Ich habe nicht nur nahtlose digitale Erlebnisse geschaffen, sondern auch eng mit Kunden zusammengearbeitet, um Funktionen zu konzipieren, die ihre Visionen zum Leben erweckt haben. Von der Ideenfindung bis zur Entwicklung habe ich eine perfekte Mischung aus UX/UI sichergestellt und so außergewöhnliche Benutzererlebnisse geschaffen.",
+        "description": "Als Fullstack Webentwickler tauchte ich in die Welt der ReactJS- und NodeJS-basierten Anwendungen ein. Ich habe nicht nur nahtlose digitale Erlebnisse geschaffen, sondern auch eng mit Kunden zusammengearbeitet, um Funktionen zu konzipieren, die ihre Visionen zum Leben erwecken. Vom Brainstorming bis zur Entwicklung habe ich die perfekte Mischung aus UX/UI sichergestellt, was zu außergewöhnlichen Benutzererfahrungen führte.",
         "icon": "freihet-icon.png"
       },
       {
         "span": "02/2021 - 05/2021",
         "conmpany": "Data4Life",
         "position": "Technischer Projektmanager / Chief of Staff",
-        "description": "In meiner Rolle als Technischer Projektmanager und Chief of Staff habe ich die Gelegenheit ergriffen, die Unternehmenskultur und Kommunikation zu verbessern. Durch die Durchführung von Retrospektiven und die Organisation interdisziplinärer Teams habe ich eine Umgebung geschaffen, die Kreativität und Innovation fördert. Gemeinsam haben wir spannende Projekte gestartet und die Grenzen des Möglichen in der Technologiewelt erweitert.",
+        "description": "Als Technischer Projektmanager und Chief of Staff habe ich die Gelegenheit ergriffen, die Unternehmenskultur und Kommunikation zu verbessern. Durch die Durchführung von Retrospektiven und die Organisation von interdisziplinären Teams habe ich eine Umgebung gefördert, die Kreativität und Innovation fördert. Gemeinsam haben wir spannende Projekte begonnen und die Grenzen des Möglichen im Bereich Technologie erweitert.",
         "icon": "d4l-icon.png"
       },
       {
         "span": "10/2018-06/2020",
         "conmpany": "YPTOKEY",
-        "position": "Junior Software Engineer & Product Owner YKaaS",
-        "description": "Als Junior Software Engineer und Product Owner habe ich mich in die Welt von Web-, Desktop- und iOS-Anwendungen vertieft. Neben dem Schärfen meiner technischen Fähigkeiten habe ich dazu beigetragen, den Kern unseres Blockchain-Produkts mitzugestalten. Durch die Zusammenarbeit bei der Gestaltung eines nachhaltigen Geschäftsmodells haben wir eine nahtlose Benutzererfahrung ermöglicht und das ungenutzte Potenzial der Blockchain-Technologie erkundet.",
+        "position": "Junior Softwareingenieur & Product Owner YKaaS",
+        "description": "Als Junior Softwareingenieur und Product Owner habe ich mich mit Web-, Desktop- und iOS-Anwendungen beschäftigt. Neben der Weiterentwicklung meiner technischen Fähigkeiten habe ich dazu beigetragen, den Kern unseres Blockchain-Produkts zu gestalten. Durch die Zusammenarbeit bei der Gestaltung eines nachhaltigen Geschäftsmodells haben wir den Weg für ein nahtloses Benutzererlebnis geebnet und das ungenutzte Potenzial der Blockchain-Technologie erkundet.",
         "icon": "yptokey-icon.png"
       },
       {
         "span": "09/2017 - 06/2018",
-        "conmpany": "I-Connect Apple Premium Reseller ",
+        "conmpany": "I-Connect Dublin",
         "position": "Verkaufsberater",
-        "description": "Als Verkaufsberater bei I-Connect hatte ich das Privileg, mein Fachwissen über Apple-Produkte zu teilen und Kunden bei Fragen und Softwareproblemen zu unterstützen. Durch persönliche Beratung habe ich Einzelpersonen dabei geholfen, das volle Potenzial ihrer Apple-Geräte auszuschöpfen und ein bestmögliches Benutzererlebnis zu gewährleisten.",
+        "description": "Als Verkaufsberater bei I-Connect hatte ich das Privileg, mein Fachwissen über Apple-Produkte zu teilen und Kunden bei ihren Anfragen und Softwareproblemen zu unterstützen. Durch individuelle Beratung habe ich Einzelpersonen dabei geholfen, das volle Potenzial ihrer Apple-Geräte auszuschöpfen und ein bestmögliches Benutzererlebnis zu gewährleisten.",
         "icon": "iconnect-icon.png"
       },
       {
         "span": "01/2017 - 09/2017",
         "conmpany": "refund.me GmbH",
         "position": "Online-Marketing-Manager",
-        "description": "In meiner Rolle als Online-Marketing-Manager habe ich effektive Social-Media-Strategien entwickelt und umgesetzt, um die Präsenz der Marke zu verstärken und den Austausch mit Kunden zu verbessern. Durch die Nutzung datenbasierter Erkenntnisse habe ich Kampagnen optimiert, um ansprechende Inhalte zu liefern und bedeutungsvolle Verbindungen zu unserem Publikum aufzubauen.",
+        "description": "In meiner Rolle als Online-Marketing-Manager habe ich effektive Social-Media-Strategien entwickelt und umgesetzt, um die Präsenz der Marke zu verstärken und die Kommunikation mit den Kunden zu verbessern. Durch die Nutzung datenbasierter Erkenntnisse habe ich Kampagnen optimiert, um ansprechende Inhalte zu liefern und eine sinnvolle Verbindung zu unserem Publikum herzustellen.",
         "icon": "refundme-icon.png"
       },
-
       {
-        "span": "09/2016 - 12/2016",
-        "conmpany": "Institute of Technology, Carlow",
-        "position": "Student Researcher",
-        "description": "Während meiner Zeit als Student Researcher am Institute of Technology, Carlow, konnte ich meine Forschungsfähigkeiten in einem akademischen Umfeld weiterentwickeln. Ich war Teil eines interdisziplinären Teams, das an einem Innovationsprojekt arbeitete, das darauf abzielte, nachhaltige Lösungen für den städtischen Verkehr zu finden.",
-        "icon": "itcarlow-icon.png"
+        "span": "Seit 04/2016",
+        "conmpany": "u/skillity",
+        "position": "Mitbegründer & Frontend-Entwickler",
+        "description": "Die Reise von u/skillity markierte einen bedeutenden Meilenstein in meiner technischen Karriere. Als Mitbegründer und Frontend-Entwickler leitete ich die Entwicklung eines Produkts, das darauf abzielte, Bildung und Wissen demokratischer zu gestalten. Durch unsere Plattform haben wir Einzelpersonen befähigt, indem wir Bildung zugänglich und ansprechend gemacht haben. Die Auswirkungen, die wir auf das Leben der Lernenden hatten, haben meine Leidenschaft für die Schaffung von transformative digitalen Lösungen entfacht.",
+        "icon": "uskillity-icon.png"
+      },
+      {
+        "span": "2011 - 2016",
+        "conmpany": "Kultstätte Keller",
+        "position": "Mitbegründer",
+        "description": "Dieses Projekt hatte zum Ziel, einen Ort zu entwickeln, an dem Freunde ihren künstlerischen Interessen nachgehen konnten. Es umfasste ein Yogastudio, ein Tonstudio, eine Werkstatt und einen Nachtclub. Es erwies sich als erfolgreiches Geschäftsmodell und verzeichnete durchschnittlich sechs Nächte pro Woche eine Teilnahme von 200 Personen. Meine Verantwortlichkeiten lagen in administrativen Funktionen und technologischen Ressourcen.",
+        "icon": "keller-icon.png"
+      },
+      {
+        "span": "2007 - 2010",
+        "conmpany": "",
+        "position": "Verschiedene",
+        "description": "Peppermint Park Studio Hannover - Studioassistent\nTinnitus in Tobago - Stadt unter Glas, LP - Ingenieur/Produzent\nBar 25 - Facility Management\nVerschiedene Filmproduktionen in unterschiedlichen Positionen innerhalb der Kameraabteilung"
       }
     ]
   },

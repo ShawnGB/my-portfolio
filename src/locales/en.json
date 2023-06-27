@@ -32,7 +32,7 @@
     "cv": [
       {
         "span": "05/2021 - 11/2022",
-        "conmpany": "freiheit.software GmbH & coKG",
+        "conmpany": "freiheit.software",
         "position": "Fullstack Webdeveloper",
         "description": "As a Fullstack Web Developer, I immersed myself in the world of ReactJS and NodeJS-based applications. I not only crafted seamless digital experiences but also collaborated closely with customers, conceptualizing features that brought their visions to life. From brainstorming to development, I ensured the perfect blend of UX/UI, resulting in exceptional user experiences.",
         "icon": "freihet-icon.png"
@@ -53,7 +53,7 @@
       },
       {
         "span": "09/2017 - 06/2018",
-        "conmpany": "I-Connect Apple Premium Reseller ",
+        "conmpany": "I-Connect Apple Dublin",
         "position": "Sales advisor",
         "description": "As a Sales Advisor at I-Connect, I had the privilege of sharing my expertise in Apple products and assisting customers with their inquiries and software issues. By providing personalized guidance, I helped individuals unlock the full potential of their Apple devices, ensuring they received the best possible user experience.",
         "icon": "iconnect-icon.png"
@@ -82,7 +82,7 @@
       {
         "span": "2007 - 2010",
         "conmpany": "",
-        "position": "",
+        "position": "Various",
         "description": "Peppermint Park Studio Hannover - Studio assistant\nTinnitus in Tobago - Stadt unter Glas, LP - Engineer/ Producer\nBar 25 - FacilityManagement\n Various Movie productions, in different positions within the camera department"
       }
     ]
