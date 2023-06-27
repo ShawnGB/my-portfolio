@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="t" transform="translate(-321, -45)">
+            <g id="Group" transform="translate(321, 45)">
+                <path d="M1.2819426,0.5 L38.7180574,0.5 C39.0222182,0.5 39.1395414,0.513996038 39.2526234,0.574472951 C39.486004,0.860458574 39.5,0.977781842 39.5,1.2819426 L39.5,38.7180574 C39.5,39.0222182 39.486004,39.1395414 39.425527,39.2526234 C39.1395414,39.486004 39.0222182,39.5 38.7180574,39.5 L1.2819426,39.5 C0.977781842,39.5 0.860458574,39.486004 0.747376578,39.425527 C0.513996038,39.1395414 0.5,39.0222182 0.5,38.7180574 L0.5,1.2819426 C0.5,0.977781842 0.513996038,0.860458574 0.574472951,0.747376578 C0.860458574,0.513996038 0.977781842,0.5 1.2819426,0.5 Z" id="Rectangle" stroke="#EF4B35" fill="#EAEDED"></path>
+                <text id="SGB" fill-rule="nonzero" font-family="Raleway-Light, Raleway" font-size="16" font-weight="300" fill="#EF4B35">
+                    <tspan x="4.128" y="28">SGB</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
