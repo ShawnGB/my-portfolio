@@ -86,5 +86,29 @@
         "description": "Peppermint Park Studio Hannover - Studio assistant\nTinnitus in Tobago - Stadt unter Glas, LP - Engineer/ Producer\nBar 25 - FacilityManagement\n Various Movie productions, in different positions within the camera department"
       }
     ]
+  },
+  "contact": {
+    "form": {
+      "placeholder": {
+        "firstName": "first Name",
+        "lastName": "last Name",
+        "company": "company",
+        "email": "email",
+        "services": {
+          "product": "product Management",
+          "webDev": "web development",
+          "consulting": "consulting"
+        },
+        "message": "message",
+        "submit": "send request"
+      },
+      "required": {
+        "firstName": "a first Name is required",
+        "lastName": "a last Name is required",
+        "email": "a email adress is required",
+        "services": "pls select a service",
+        "message": "pls enter a message"
+      }
+    }
   }
 }
