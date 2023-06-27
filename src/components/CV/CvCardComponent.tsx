@@ -29,7 +29,7 @@ export default function CvCardComponent({ experience }: IProps) {
             </p>
           </div>
 
-          <p className='text-gray-700 text-sm md:text-lg'>
+          <p className='text-gray-700 text-sm md:text-lg whitespace-pre-line'>
             {experience.description}
           </p>
         </div>
