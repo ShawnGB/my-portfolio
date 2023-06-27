@@ -27,9 +27,11 @@ export default function CvCardList() {
 
   return (
     <div className='w-full flex flex-col align-middle justify-center items-center p-4'>
-      {data.about.cv.map((experience: WorkingExperience, index: number) => (
-        <CvCardComponent experience={experience} key={index} index={index} />
-      ))}
+      <div className='w-full md:w-2/3 border-l border-accent-300'>
+        {data.about.cv.map((experience: WorkingExperience, index: number) => (
+          <CvCardComponent experience={experience} key={index} index={index} />
+        ))}
+      </div>
     </div>
   );
 }

@@ -76,13 +76,27 @@
     ]
   },
   "contact": {
-    "email": "info@example.com",
-    "phone": "+1234567890",
-    "address": "123 Straße, Stadt, Land",
-    "social": {
-      "linkedin": "https://www.linkedin.com/in/dein-name/",
-      "github": "https://github.com/dein-name/"
+    "form": {
+      "placeholder": {
+        "firstName": "vorname",
+        "lastName": "nachname",
+        "company": "unternehmen",
+        "email": "e-Mail",
+        "services": {
+          "product": "produktmanagement",
+          "webDev": "webentwicklung",
+          "consulting": "beratung"
+        },
+        "message": "nachricht",
+        "submit": "anfrage senden"
+      },
+      "required": {
+        "firstName": "ein Vorname ist erforderlich",
+        "lastName": "ein Nachname ist erforderlich",
+        "email": "eine e-Mail-adresse ist erforderlich",
+        "services": "bitte wählen Sie einen Service aus",
+        "message": "bitte geben Sie eine Nachricht ein"
+      }
     }
-  },
-  "footer": "© 2023 Dein Name. Alle Rechte vorbehalten."
+  }
 }

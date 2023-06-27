@@ -1,6 +1,9 @@
 import { useForm } from 'react-hook-form';
+import { useTranslation } from 'react-i18next';
 
 export default function ContactComponent() {
+  const { t } = useTranslation();
+
   const {
     register,
     handleSubmit,
@@ -24,7 +27,9 @@ export default function ContactComponent() {
           <input
             className={inputStyle}
             placeholder={
-              errors.firstName ? 'First Name is required.' : 'first Name'
+              errors.firstName
+                ? t('contact.form.required.firstName')
+                : t('contact.form.placeholder.firstName')
             }
             type='text'
             {...register('firstName', { required: true })}
@@ -34,7 +39,9 @@ export default function ContactComponent() {
         <label htmlFor='lastName' className='text-lg text-primary-700 mb-2'>
           <input
             placeholder={
-              errors.lastName ? 'Last Name is required.' : 'last Name'
+              errors.lastName
+                ? t('contact.form.required.lastName')
+                : t('contact.form.placeholder.lastName')
             }
             type='text'
             {...register('lastName', { required: true })}
@@ -44,7 +51,7 @@ export default function ContactComponent() {
 
         <label htmlFor='company' className='text-lg text-primary-700 mb-2'>
           <input
-            placeholder='compoany'
+            placeholder={t('contact.form.placeholder.company')}
             type='text'
             {...register('company')}
             className={inputStyle}
@@ -53,7 +60,11 @@ export default function ContactComponent() {
 
         <label htmlFor='email' className='text-lg text-primary-700 mb-2'>
           <input
-            placeholder={errors.email ? 'email is required.' : 'email'}
+            placeholder={
+              errors.email
+                ? t('contact.form.required.email')
+                : t('contact.form.placeholder.email')
+            }
             type='text'
             {...register('email', { required: true })}
             className={inputStyle}
@@ -67,20 +78,30 @@ export default function ContactComponent() {
               className={inputStyle}
               style={{ appearance: 'none' }}
             >
-              <option value='Webdevelopment'>Web Development</option>
-              <option value='Product Management'>Product Management</option>
-              <option value='Consulting'>Consulting</option>
+              <option value='Webdevelopment'>
+                {t('contact.form.placeholder.services.webDev')}
+              </option>
+              <option value='Product Management'>
+                {t('contact.form.placeholder.services.product')}
+              </option>
+              <option value='Consulting'>
+                {t('contact.form.placeholder.services.consulting')}
+              </option>
             </select>
           </label>
         </div>
         {errors.role && (
-          <p className='text-red-500 text-sm mb-2'>Please select a role.</p>
+          <p className='text-red-500 text-sm mb-2'>
+            {t('contact.from.required.services')}
+          </p>
         )}
 
         <label htmlFor='message' className='text-lg text-primary-700 mb-2'>
           <textarea
             placeholder={
-              errors.message ? 'a message is requirred' : 'write a message'
+              errors.message
+                ? t('contact.form.required.message')
+                : t('contact.form.placeholder.message')
             }
             {...register('message', { required: true })}
             className={inputStyle}
@@ -92,7 +113,7 @@ export default function ContactComponent() {
           type='submit'
           className='block border border-primary-700 text-primary-700 hover:text-background hover:border-primary-500'
         >
-          Send Request
+          {t('contact.form.placeholder.submit')}
         </button>
       </form>
     </div>
