@@ -17,8 +17,7 @@ export default function ContactComponent() {
   const inputStyle =
     'block w-full p-2 bg-background dark:bg-darkMode-background border-b-2 border-primary-200 dark:border-darkMode-primary-200 focus:outline-none focus:border-accent-500 dark:focus:border-darkMode-accent-500';
 
-  const labelStyle =
-    'text-lg text-primary-700 dark:text-darkMode-primary-700 mb-2';
+  const labelStyle = 'text-lg text-primary-700  mb-2';
 
   return (
     <div className='w-full flex flex-col align-middle justify-center items-center p-4'>
@@ -115,7 +114,7 @@ export default function ContactComponent() {
 
         <button
           type='submit'
-          className='block border border-primary-700 text-primary-700 dark:border-darkMode-primary-700 dark:text-darkMode-primary-700 hover:text-background hover:border-primary-500 dark:hover:text-darkMode-background dark:hover:border-darkMode-primary-500'
+          className='block border border-primary-700 text-primary-700 dark:border-darkMode-primary-700  hover:text-background hover:border-primary-500 dark:hover:text-darkMode-background dark:hover:border-darkMode-primary-500'
         >
           {t('contact.form.placeholder.submit')}
         </button>
