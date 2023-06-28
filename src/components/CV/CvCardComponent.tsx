@@ -13,7 +13,7 @@ export default function CvCardComponent({ experience }: IProps) {
         {experience.position}
       </p>
 
-      <div className='shadow-lg flex flex-col md:flex-row border border-primary-50 dark:border-darkMode-primary-50 md:max-w-2/4 mr-4'>
+      <div className='shadow-lg flex flex-col md:flex-row border border-primary-50 dark:border-darkMode-primary-50 md:max-w-2/4 mr-4 '>
         {/* <img
           className='realtive h-1/8 w-10 m-auto mt-8 md:w-none md:ml-8 md:mt-10'
           src={svgURL}
@@ -21,15 +21,13 @@ export default function CvCardComponent({ experience }: IProps) {
         /> */}
         <div className='p-8 w-full'>
           <div className='my-2 w-full flex flex-row center justify-between'>
-            <h3 className='text-sm md:text-lg font-semibold  '>
+            <h3 className='text-sm md:text-lg font-semibold'>
               {experience.conmpany}
             </h3>
-            <p className='text-sm md:text-lg text-gray-700  font-light'>
-              {experience.span}
-            </p>
+            <p className='text-sm md:text-lg font-light'>{experience.span}</p>
           </div>
 
-          <p className='text-gray-700 text-sm md:text-lg whitespace-pre-line'>
+          <p className='text-sm md:text-lg whitespace-pre-line'>
             {experience.description}
           </p>
         </div>
