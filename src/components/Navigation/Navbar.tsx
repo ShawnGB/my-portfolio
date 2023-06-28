@@ -3,7 +3,12 @@ import LogoComponent from './Items/LogoComponent';
 import BurgerMenu from './Items/BurgerMenu';
 import NavItems from './Items/NavItems';
 
-export default function Navbar() {
+type IProps = {
+  switchTheme: () => void;
+  theme: boolean;
+};
+
+export default function Navbar({ switchTheme, theme }: IProps) {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
 
@@ -41,9 +46,16 @@ export default function Navbar() {
       }`}
     >
       <LogoComponent isMobile={isMobile} />
-      <NavItems isMobile={isMobile} isMobileMenuOpen={isMobileMenuOpen} />
+      <NavItems
+        isMobile={isMobile}
+        isMobileMenuOpen={isMobileMenuOpen}
+        switchTheme={switchTheme}
+        theme={theme}
+      />
+
       <BurgerMenu
         setMobileMenuOpen={() => setMobileMenuOpen(!isMobileMenuOpen)}
+        isMobileMenuOpen={isMobileMenuOpen}
       />
     </div>
   );
