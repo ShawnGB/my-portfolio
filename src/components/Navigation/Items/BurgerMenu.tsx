@@ -15,7 +15,7 @@ export default function BurgerMenu({
   console.log(renderIcon);
   return (
     <button
-      className='text-3xl text-accent-500 focus:outline-none mr-8 block sm:hidden'
+      className='text-3xl text-accent-500 dark:text-darkMode-accent-500 focus:outline-none mr-8 block sm:hidden'
       onClick={setMobileMenuOpen}
     >
       <img src={renderIcon} alt='Menu Icon' />

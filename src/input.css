@@ -6,6 +6,10 @@ body {
   background-color: #eaeded;
 }
 
+.dark {
+  background-color: #1f2937;
+}
+
 h1 {
   font-family: 'Lora', serif;
   color: #808990;

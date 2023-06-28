@@ -15,15 +15,19 @@ export default function ContactComponent() {
   };
 
   const inputStyle =
-    'block w-full p-2 bg-background border-b-2 border-primary-200 focus:outline-none focus:border-accent-500';
+    'block w-full p-2 bg-background dark:bg-darkMode-background border-b-2 border-primary-200 dark:border-darkMode-primary-200 focus:outline-none focus:border-accent-500 dark:focus:border-darkMode-accent-500';
+
+  const labelStyle =
+    'text-lg text-primary-700 dark:text-darkMode-primary-700 mb-2';
+
   return (
     <div className='w-full flex flex-col align-middle justify-center items-center p-4'>
       <form
         onSubmit={handleSubmit(onSubmit)}
-        className='shadow-lg border border-primary-50 md:max-w-2/4 p-16 mx-auto flex flex-col gap-y-4'
+        className='shadow-lg border border-primary-50 dark:border-darkMode-primary-50 md:max-w-2/4 p-16 mx-auto flex flex-col gap-y-4'
         style={{ maxWidth: '500px' }}
       >
-        <label htmlFor='firstName' className='text-lg text-primary-700 mb-2'>
+        <label htmlFor='firstName' className={labelStyle}>
           <input
             className={inputStyle}
             placeholder={
@@ -36,7 +40,7 @@ export default function ContactComponent() {
           />
         </label>
 
-        <label htmlFor='lastName' className='text-lg text-primary-700 mb-2'>
+        <label htmlFor='lastName' className={labelStyle}>
           <input
             placeholder={
               errors.lastName
@@ -49,7 +53,7 @@ export default function ContactComponent() {
           />
         </label>
 
-        <label htmlFor='company' className='text-lg text-primary-700 mb-2'>
+        <label htmlFor='company' className={labelStyle}>
           <input
             placeholder={t('contact.form.placeholder.company')}
             type='text'
@@ -58,7 +62,7 @@ export default function ContactComponent() {
           />
         </label>
 
-        <label htmlFor='email' className='text-lg text-primary-700 mb-2'>
+        <label htmlFor='email' className={labelStyle}>
           <input
             placeholder={
               errors.email
@@ -71,7 +75,7 @@ export default function ContactComponent() {
           />
         </label>
 
-        <div className='text-lg text-primary-700 mb-2'>
+        <div className={labelStyle}>
           <label htmlFor='role' className='block'>
             <select
               {...register('role', { required: true })}
@@ -91,12 +95,12 @@ export default function ContactComponent() {
           </label>
         </div>
         {errors.role && (
-          <p className='text-red-500 text-sm mb-2'>
+          <p className='text-accent-500 dark:text-darkMode-accent-500 text-sm mb-2'>
             {t('contact.from.required.services')}
           </p>
         )}
 
-        <label htmlFor='message' className='text-lg text-primary-700 mb-2'>
+        <label htmlFor='message' className={labelStyle}>
           <textarea
             placeholder={
               errors.message
@@ -111,7 +115,7 @@ export default function ContactComponent() {
 
         <button
           type='submit'
-          className='block border border-primary-700 text-primary-700 hover:text-background hover:border-primary-500'
+          className='block border border-primary-700 text-primary-700 dark:border-darkMode-primary-700 dark:text-darkMode-primary-700 hover:text-background hover:border-primary-500 dark:hover:text-darkMode-background dark:hover:border-darkMode-primary-500'
         >
           {t('contact.form.placeholder.submit')}
         </button>
