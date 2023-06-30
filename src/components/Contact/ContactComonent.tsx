@@ -19,7 +19,13 @@ export default function ContactComponent() {
     formState: { errors },
   } = useForm<FormValues>();
 
-  const onSubmit = handleSubmit((data: FormValues) => console.log(data));
+  const onSubmit = handleSubmit((data: FormValues) =>
+    alert(
+      `Dear ${data.firstName},
+    this form is not yet connected to anything!
+    ....sry.. while it is still wip, pls sent an email to: shawn.becker@code.berlin`
+    )
+  );
 
   const inputStyle =
     'block w-full p-2 bg-background dark:bg-darkMode-background border-b-2 border-primary-200 dark:border-darkMode-primary-200 focus:outline-none focus:border-accent-500 dark:focus:border-darkMode-accent-500';
