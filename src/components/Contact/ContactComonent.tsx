@@ -1,6 +1,15 @@
 import { useForm } from 'react-hook-form';
 import { useTranslation } from 'react-i18next';
 
+type FormValues = {
+  firstName: string;
+  lastName: string;
+  company?: string;
+  email: string;
+  role: string;
+  message: string;
+};
+
 export default function ContactComponent() {
   const { t } = useTranslation();
 
@@ -8,11 +17,9 @@ export default function ContactComponent() {
     register,
     handleSubmit,
     formState: { errors },
-  } = useForm();
+  } = useForm<FormValues>();
 
-  const onSubmit = (data: any) => {
-    console.log(data);
-  };
+  const onSubmit = handleSubmit((data: FormValues) => console.log(data));
 
   const inputStyle =
     'block w-full p-2 bg-background dark:bg-darkMode-background border-b-2 border-primary-200 dark:border-darkMode-primary-200 focus:outline-none focus:border-accent-500 dark:focus:border-darkMode-accent-500';
@@ -22,7 +29,7 @@ export default function ContactComponent() {
   return (
     <div className='w-full flex flex-col align-middle justify-center items-center p-4'>
       <form
-        onSubmit={handleSubmit(onSubmit)}
+        onSubmit={onSubmit}
         className='shadow-lg border border-primary-50 dark:border-darkMode-primary-50 md:max-w-2/4 p-16 mx-auto flex flex-col gap-y-4'
         style={{ maxWidth: '500px' }}
       >
