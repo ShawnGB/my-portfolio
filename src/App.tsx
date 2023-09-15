@@ -5,6 +5,7 @@ import AboutMeComponent from './components/About/AboutMeComponent';
 import HomeComponent from './components/Home/HomeComponent';
 import ContactComonent from './components/Contact/ContactComonent';
 import ServiceComponent from './components/Service/ServiceComponent';
+import LoginComponent from './components/Login/LoginComponent';
 import { useEffect, useState } from 'react';
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
       <BrowserRouter>
         <Navbar switchTheme={() => setTheme(!theme)} theme={theme} />
         <Routes>
+          <Route path='/login' element={<LoginComponent />} />
           <Route path='/' element={<HomeComponent />} />
           <Route path='/cv' element={<CvCardList />} />
           <Route path='/about' element={<AboutMeComponent />} />

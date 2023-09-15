@@ -46,6 +46,10 @@ export default function NavItems({
       to: '/contact',
       button: 'navigation.navLink.contact',
     },
+    {
+      to: '/login',
+      button: 'login',
+    },
   ];
 
   const Menustyles = {
