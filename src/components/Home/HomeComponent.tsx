@@ -6,7 +6,7 @@ export default function HomeComponent() {
   return (
     <div className='flex flex-col items-center justify-center h-5/6 w-full absolute overflow-hidden'>
       <div>
-        <h1 className='tracking-tight leading-tight border border-primary-50 text-primary-700 dark:border-darkMode-primary-50 dark:text-darkMode-primary-700 shadow-lg'>
+        <h1 className='tracking-tight leading-tight border border-primary-50 text-primary-700 dark:border-darkMode-primary-50 dark:text-darkMode-primary-700 shadow-lg dark:shadow-darkMode-primary-100'>
           <div className='font-bold text-4xl sm:text-6xl md:text-8xl text-right whitespace-pre p-8'>
             {t('home.hero')}
           </div>
