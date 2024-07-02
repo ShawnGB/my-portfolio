@@ -5,6 +5,8 @@ type IProps = {
   index: number;
 };
 
+//clean up the code and make it more readable and reusable
+
 export default function CvCardComponent({ experience }: IProps) {
   return (
     <div className='w-full my-4 flex flex-col mt-8 ml-4 md:ml-20'>
@@ -13,7 +15,7 @@ export default function CvCardComponent({ experience }: IProps) {
         {experience.position}
       </p>
 
-      <div className='shadow-lg flex flex-col md:flex-row border border-primary-50 dark:border-darkMode-primary-50 md:max-w-2/4 mr-4 '>
+      <div className='shadow-lg flex flex-col md:flex-row border border-primary-50 dark:border-darkMode-primary-50 dark:shadow-darkMode-primary-200 md:max-w-2/4 mr-4 '>
         {/* <img
           className='realtive h-1/8 w-10 m-auto mt-8 md:w-none md:ml-8 md:mt-10'
           src={svgURL}
