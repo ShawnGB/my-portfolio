@@ -24,6 +24,12 @@ export default function ProjectsComponent(): JSX.Element {
         "I customized the Bernd Wolf website using WordPress and PHP to allow administrators to apply a grayscale filter selectively to chosen images. This bespoke feature enhances the website's visual presentation, demonstrating my expertise in PHP development and WordPress customization.",
       link: "https://berndwolf.net",
     },
+    {
+      title: "Arina Shanzev - Kundalini Bodywork WIP",
+      description:
+        "Currently under development, the Arina Shanzev - Kundalini Bodywork website focuses on promoting holistic healing and bodywork services. Built using WordPress, this work-in-progress project will feature a minimalist design, incorporating soothing color schemes and intuitive navigation. The website is being designed to align with the peaceful and therapeutic nature of the services provided, ensuring a calming user experience.",
+      link: "https://arinashanzev.com",
+    },
   ];
   return (
     <div className="w-full flex flex-col align-middle justify-center items-center p-4">
