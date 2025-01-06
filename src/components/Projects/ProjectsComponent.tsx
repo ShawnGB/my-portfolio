@@ -31,9 +31,9 @@ export default function ProjectsComponent(): JSX.Element {
       link: "https://arinashanzev.com",
     },
     {
-      title: "evolve festival - WIP",
+      title: "evolve Festival = WIP",
       description:
-        "Currently under development, rewoking the website of the holistic health and yoga festival, this website is build using Wix. The goal is to establish consistency and a clear structure that highlights the intentions of the festival using the existing branding. Furthermore it should integrate features like ticketing and booking",
+        "I recently redesigned the website for evolve Festival, a transformative event near Berlin that combines yoga, personal growth, and holistic ceremonies with music and dance. The new site, built on Wix, enhances user experience with intuitive navigation, a comprehensive program overview, and seamless ticket purchasing. This project underscores my commitment to creating engaging digital platforms for unique events.",
       link: "https://www.evolve-festival.com",
     },
   ];
