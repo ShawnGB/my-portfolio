@@ -30,6 +30,12 @@ export default function ProjectsComponent(): JSX.Element {
         "Currently under development, the Arina Shanzev - Kundalini Bodywork website focuses on promoting holistic healing and bodywork services. Built using WordPress, this work-in-progress project will feature a minimalist design, incorporating soothing color schemes and intuitive navigation. The website is being designed to align with the peaceful and therapeutic nature of the services provided, ensuring a calming user experience.",
       link: "https://arinashanzev.com",
     },
+    {
+      title: "evolve Festival = WIP",
+      description:
+        "I recently redesigned the website for evolve Festival, a transformative event near Berlin that combines yoga, personal growth, and holistic ceremonies with music and dance. The new site, built on Wix, enhances user experience with intuitive navigation, a comprehensive program overview, and seamless ticket purchasing. This project underscores my commitment to creating engaging digital platforms for unique events.",
+      link: "https://www.evolve-festival.com",
+    },
   ];
   return (
     <div className="w-full flex flex-col align-middle justify-center items-center p-4">
